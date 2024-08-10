@@ -1,5 +1,5 @@
 # Define a imagem base
-FROM node:14
+FROM node:18
 
 # Instala o ffmpeg
 RUN apt-get update && apt-get install -y ffmpeg
